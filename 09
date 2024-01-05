@@ -1,0 +1,17 @@
+num = 1
+total = 0
+
+while total < 1000:
+    
+    if total < 100:
+        print("total меньше 100, total = ", total)
+    
+    if total == 100:
+        print("total 100!!! УРА!")
+    
+    if total > 100:
+        print("total больше 100, total = ", total)
+        
+    total = total + num
+    
+print("End")
